@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/joy/quick-start": "pages/joy/quick-start.js",
+  "/joy/mac": "pages/joy/mac.js",
+  "/joy/ai": "pages/joy/ai.js"
+}

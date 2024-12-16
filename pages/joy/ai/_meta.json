@@ -1,0 +1,5 @@
+{
+    "openai": "OpenAI",
+    "mistral-ai": "Mistral AI",
+    "azure-ai": "Azure AI"
+}

@@ -1,0 +1,17 @@
+## Context Length
+
+![](https://user-images.githubusercontent.com/2284279/291619524-4eaa1e6a-577b-486c-b7bd-efc393668b08.png)
+
+Joy allows you to custom Context length per conversation. In essence, it provides different options for determining how much of the conversation's history is included in each new message sent to the AI for processing. This can be particularly useful in situations where context management is crucial, either for maintaining the conversation's coherence or for controlling costs associated with processing data.
+
+#### Sending All Messages
+
+This option includes the entire conversation history in each new message. It's the most comprehensive approach, ensuring that the AI has all the available context to understand and respond to the latest message accurately. This is ideal for complex or ongoing conversations where each message builds on the previous ones.
+
+#### Last User Message Only
+
+In this mode, only the most recent message from the user is sent to the AI. This option significantly reduces the amount of data processed and can cut costs. It's useful in scenarios where each message is relatively independent, and the AI doesn't need to refer to earlier parts of the conversation to understand and respond appropriately.
+
+#### Recent Messages
+
+This is a flexible option where you can specify the number of recent messages to include in the context. This allows for a balance between providing enough context for the AI to understand the conversation and managing the amount of data processed. It's useful when some context is necessary for the conversation, but the entire history is not required.
